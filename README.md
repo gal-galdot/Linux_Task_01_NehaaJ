@@ -3,7 +3,9 @@
 ## Student Information
 
 **Name:** Nehaa J
+
 **Course:** MCA (Master of Computer Applications)
+
 **College:** Kristu Jayanti College (Deemed to be University)
 
 ---
