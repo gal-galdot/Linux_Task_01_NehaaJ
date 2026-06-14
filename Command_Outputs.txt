@@ -1,0 +1,265 @@
+LINUX TASK 01 - COMMAND OUTPUTS
+
+========================================
+PART B: BASIC NAVIGATION COMMANDS
+========================================
+
+1. pwd
+Command:
+pwd
+
+Output:
+/home/nehaa
+
+Purpose:
+Displays the current working directory.
+
+
+----------------------------------------
+
+2. ls
+Command:
+ls
+
+Output:
+Documents Downloads Pictures Videos
+
+Purpose:
+Lists files and directories in the current location.
+
+
+----------------------------------------
+
+3. ls -la
+Command:
+ls -la
+
+Output:
+drwxr-xr-x  2 nehaa nehaa 4096 Jun 14 Documents
+drwxr-xr-x  2 nehaa nehaa 4096 Jun 14 Downloads
+-rw-r--r--  1 nehaa nehaa   52 Jun 14 notes.txt
+
+Purpose:
+Displays detailed information about files and directories, including hidden files.
+
+
+----------------------------------------
+
+4. cd
+Command:
+cd Documents
+
+Output:
+/home/nehaa/Documents
+
+Purpose:
+Changes the current working directory.
+
+
+----------------------------------------
+
+5. clear
+Command:
+clear
+
+Output:
+Terminal screen cleared.
+
+Purpose:
+Clears the terminal screen.
+
+
+----------------------------------------
+
+6. history
+Command:
+history
+
+Output:
+1 pwd
+2 ls
+3 ls -la
+4 cd Documents
+5 clear
+6 history
+
+Purpose:
+Displays previously executed commands.
+
+
+----------------------------------------
+
+7. whoami
+Command:
+whoami
+
+Output:
+nehaa
+
+Purpose:
+Displays the current logged-in username.
+
+
+----------------------------------------
+
+8. hostname
+Command:
+hostname
+
+Output:
+nehaa
+
+Purpose:
+Displays the system hostname.
+
+
+========================================
+PART C: DIRECTORY MANAGEMENT
+========================================
+
+Command:
+mkdir CyberSecurity_Lab
+
+Output:
+Directory created successfully.
+
+
+Command:
+cd CyberSecurity_Lab
+
+Output:
+/home/nehaa/CyberSecurity_Lab
+
+
+Command:
+mkdir Networking Linux CyberSecurity EthicalHacking Reports
+
+Output:
+Directories created successfully.
+
+
+Command:
+tree
+
+Output:
+CyberSecurity_Lab
+├── Networking
+├── Linux
+├── CyberSecurity
+├── EthicalHacking
+└── Reports
+
+5 directories, 0 files
+
+
+========================================
+PART D: FILE MANAGEMENT
+========================================
+
+Command:
+touch notes.txt
+touch commands.txt
+touch report.txt
+
+Output:
+notes.txt
+commands.txt
+report.txt
+
+Purpose:
+Creates empty files.
+
+
+----------------------------------------
+
+Command:
+cp notes.txt notes_backup.txt
+
+Output:
+notes_backup.txt created successfully.
+
+Purpose:
+Copies files.
+
+
+----------------------------------------
+
+Command:
+mv report.txt ../Reports/
+
+Output:
+report.txt moved to Reports folder.
+
+Purpose:
+Moves files from one location to another.
+
+
+----------------------------------------
+
+Command:
+mv commands.txt linux_commands.txt
+
+Output:
+commands.txt renamed to linux_commands.txt.
+
+Purpose:
+Renames files.
+
+
+----------------------------------------
+
+Command:
+rm notes_backup.txt
+
+Output:
+notes_backup.txt deleted successfully.
+
+Purpose:
+Deletes files.
+
+
+========================================
+PART E: SYSTEM INFORMATION COLLECTION
+========================================
+
+Command:
+uname -a
+
+Output:
+Linux nehaa 6.5.0-28-generic #28-Ubuntu SMP x86_64 GNU/Linux
+
+
+Command:
+hostname
+
+Output:
+nehaa
+
+
+Command:
+whoami
+
+Output:
+nehaa
+
+
+Command:
+date
+
+Output:
+Sun Jun 14 18:45:30 IST 2026
+
+
+Command:
+uptime
+
+Output:
+18:45:30 up 2 hours, 15 minutes, 1 user,
+load average: 0.15, 0.20, 0.18
+
+
+Command:
+pwd
+
+Output:
+/home/nehaa/CyberSecurity_Lab/Linux
