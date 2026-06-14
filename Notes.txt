@@ -1,0 +1,82 @@
+LINUX TASK 01 - NOTES
+
+## Introduction to Linux
+
+Linux is a free and open-source operating system based on Unix. It is widely used in servers, cloud computing, cybersecurity, and software development because of its stability, security, and flexibility.
+
+Linux allows users to interact with the system through both graphical user interfaces (GUI) and command-line interfaces (CLI). The terminal is one of the most powerful features of Linux and is commonly used by system administrators and cybersecurity professionals.
+
+## Linux Distributions
+
+A Linux distribution is a complete operating system built around the Linux kernel. Popular Linux distributions include:
+
+* Ubuntu
+* Kali Linux
+* Debian
+* Fedora
+* Parrot OS
+
+Each distribution is designed for specific purposes and user requirements.
+
+## Linux File System
+
+Linux uses a hierarchical file system structure that starts from the root directory (/).
+
+Important directories:
+
+/        - Root directory
+/home    - User files and folders
+/etc     - System configuration files
+/bin     - Essential commands
+/usr     - User applications and programs
+/var     - Log and variable data files
+
+## Basic Commands Learned
+
+pwd       - Shows current directory
+ls        - Lists files and folders
+ls -la    - Lists detailed file information
+cd        - Changes directory
+clear     - Clears terminal screen
+history   - Shows command history
+whoami    - Displays current username
+hostname  - Displays system hostname
+
+## Directory Management Commands
+
+mkdir      - Creates directories
+cd         - Changes directory
+tree       - Displays directory structure
+
+## File Management Commands
+
+touch      - Creates files
+cp         - Copies files
+mv         - Moves or renames files
+rm         - Deletes files
+
+## System Information Commands
+
+uname -a   - Displays kernel and system information
+hostname   - Displays hostname
+whoami     - Displays username
+date       - Displays current date and time
+uptime     - Displays system uptime
+pwd        - Displays current working directory
+
+## Why Linux is Important
+
+Linux is important because most servers, cloud platforms, and cybersecurity tools run on Linux. It provides better security, customization, and control over the operating system.
+
+Learning Linux is essential for careers in:
+
+* Cyber Security
+* Ethical Hacking
+* Cloud Computing
+* System Administration
+* DevOps Engineering
+* Network Administration
+
+## Conclusion
+
+This task helped in understanding Linux installation, terminal navigation, file management, directory management, and system information collection. These skills provide a strong foundation for future cybersecurity and system administration learning.
